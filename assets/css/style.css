@@ -191,9 +191,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 15px;
   display: inline-block;
   box-sizing: border-box;
+  width: auto;
 }
 .appointment-btn:hover {
   background: #166ab5;
