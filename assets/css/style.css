@@ -191,8 +191,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   display: inline-block;
+  box-sizing: border-box;
 }
 .appointment-btn:hover {
   background: #166ab5;
@@ -200,8 +201,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   .appointment-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
+    padding: 0.8em 0.3em !important;
+      display: inline-block;
   }
 }
 
