@@ -188,10 +188,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #1977cc;
   color: #fff;
   border-radius: 50px;
-  padding: 8px 25px;
+  padding: 10px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 20px;
   display: inline-block;
   box-sizing: border-box;
 }
